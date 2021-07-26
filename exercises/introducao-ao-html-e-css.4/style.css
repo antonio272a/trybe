@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: blue;
+    color: white;
+}
+
+.titulo-header {
+    text-align: center;
+}
+
+.lista-nav {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.lista-nav li {
+    display: inline;
+    margin: 10px 50px 0 0;
+    text-align: center;
+}
+
+.geral-text {
+    max-width: 60%;
+}
+
+.tabela-biologica, .tabela-biologica th, .tabela-biologica td {
+    border: 1px solid black;
+}
