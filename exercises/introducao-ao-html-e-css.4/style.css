@@ -3,36 +3,101 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+}
+
+main {
+    background-color: blanchedalmond;
+    margin: 0 10px;
+}
+
 .header {
     background-color: blue;
     color: white;
 }
 
-.titulo-header {
+.header-title {
+    font-size: 48px;
     text-align: center;
 }
 
-.lista-nav {
+.nav-list {
     display: inline-block;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
-.lista-nav li {
-    display: inline;
-    margin: 10px 50px 0 0;
+ul.nav-list li {
+    display: inline-block;
+    margin: 5px 50px 0 0;
+    font-size: 20px;
     text-align: center;
 }
 
-.artigo-principal {
+.main-article {
     display: inline-block;
-    width: 60%;
 }
 
-.geral-text {
-    max-width: 60%;
+.main-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.tabela-biologica, .tabela-biologica th, .tabela-biologica td {
+.article-title {
+    display: inline-block;
+    font-size: 28px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 10em;
+}
+
+.article-text {
+    display: inline-block;
+    max-width: 50%;
+    font-size: 20px;
+}
+
+.geral, .olhos, .garras {
+    clear: left;
+}
+
+img {
+    width: 30%;
+    float: left;
+    clear: left;
+    margin: 10px
+}
+
+.bio-table, .bio-table th, .bio-table td {
     border: 1px solid black;
+}
+
+.video-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.video iframe {
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
+
+.bibliography {
+    clear: left;
+}
+
+.bibliography-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.bibliography ul {
+    text-align: center;
+    border: 2px solid black
 }
